@@ -22,6 +22,7 @@ ROS2 Python node for [OAK-D-Lite](https://docs.luxonis.com/projects/hardware/en/
 
 
 5. source the overlay with:
+
                 source install/local_setup.bash
 
 # Run:
