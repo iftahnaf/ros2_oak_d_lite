@@ -10,14 +10,14 @@ ROS2 Python node for [OAK-D-Lite](https://docs.luxonis.com/projects/hardware/en/
 
                 pip install depthai
 
-3. Clone this repository into ros2 overlay:
+3. Clone this repository into ros2:
 
                 git clone https://github.com/iftahnaf/ros2_oak_d_lite.git
 
-4. Build the overlay with:
+4. Build the with:
 
 
-                cd <ros2_ws>
+                cd ros2_oak_d_lite
                 colcon build --packages-select ros2_oak_d_lite
 
 
