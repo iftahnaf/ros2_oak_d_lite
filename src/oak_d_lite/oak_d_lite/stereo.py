@@ -37,8 +37,8 @@ class StereoPublisher(Node):
         self.monoLeft.out.link(self.xoutLeft.input)
 
         # ros2 publishers
-        self.left_pub = self.create_publisher(Image, '/left/image_rect', 10)
-        self.right_pub = self.create_publisher(Image, '/right/image_rect', 10)
+        self.left_pub = self.create_publisher(Image, '/camera/left/image_raw', 10)
+        self.right_pub = self.create_publisher(Image, '/camera/right/image_raw', 10)
         self.left_info_pub = self.create_publisher(CameraInfo, 'left/camera_info', 10)
         self.right_info_pub = self.create_publisher(CameraInfo, 'right/camera_info', 10)
 
