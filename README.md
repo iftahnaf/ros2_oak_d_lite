@@ -8,7 +8,7 @@ ROS2 Python node for [OAK-D-Lite](https://docs.luxonis.com/projects/hardware/en/
 
                 pip install depthai
 
-2. Clone this repository into ros2:
+2. Clone this repository into a ROS 2 workspace:
 
                 git clone https://github.com/iftahnaf/ros2_oak_d_lite.git
 
